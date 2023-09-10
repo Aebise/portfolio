@@ -19,10 +19,6 @@ h1 {
   font-weight: bold;
   color: black;
 }
-h2 {
-  font-size: 24px;
-  color: #272142;
-}
 p {
   font-family: var(--default-font-family);
 }
@@ -30,6 +26,12 @@ p {
   text-align: center;
   padding: 160px 20px;
   background: var(--background-color);
+}
+
+.hero h2 {
+  font-size: 24px;
+  color: #272142;
+  line-height: 2;
 }
 
 .hero p {
