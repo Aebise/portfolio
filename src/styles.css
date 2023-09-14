@@ -85,6 +85,10 @@ p {
     text-align: center;
     padding: 0px;
   }
+  nav a {
+    font-size: 14px;
+    margin-left: 5px;
+  }
 }
 
 .general-section h1 {
@@ -108,4 +112,29 @@ p {
 }
 .img-fluid.profile {
   border-radius: 15px;
+}
+.logo {
+  max-width: 150px;
+  max-height: 40px;
+}
+nav {
+  padding: 20px 0px;
+}
+nav ul {
+  padding: 0px;
+}
+nav li {
+  list-style-type: none;
+  line-height: 42px;
+}
+nav li a {
+  text-decoration: none;
+  display: inline;
+  margin-left: 10px;
+  color: #272142;
+}
+nav li a:hover,
+nav li a.active {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
