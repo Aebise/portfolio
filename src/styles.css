@@ -30,7 +30,7 @@ p {
 }
 .hero {
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
   background: var(--background-color);
 }
 
@@ -63,7 +63,7 @@ p {
   padding: 60px 60px;
 }
 .general-section {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .general-section h1 {
@@ -158,16 +158,12 @@ footer .contact-box p {
   h2 {
     font-size: 44px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
   .project-description {
     padding: 0;
     text-align: center;
   }
   .general-section {
     text-align: center;
-    padding: 0px;
   }
   nav a {
     font-size: 14px;
