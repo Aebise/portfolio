@@ -66,31 +66,6 @@ p {
   padding: 160px 20px;
 }
 
-@media (max-width: 992px) {
-  h1 {
-    font-size: 44px;
-    line-height: 2;
-  }
-  h2 {
-    font-size: 44px;
-  }
-  .hero {
-    padding: 80px 20px;
-  }
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-  .general-section {
-    text-align: center;
-    padding: 0px;
-  }
-  nav a {
-    font-size: 14px;
-    margin-left: 5px;
-  }
-}
-
 .general-section h1 {
   font-size: 64px;
   line-height: 80px;
@@ -137,4 +112,68 @@ nav li a:hover,
 nav li a.active {
   color: var(--primary-color);
   transition: all 100ms ease-in-out;
+}
+footer {
+  margin: 60px 0;
+}
+footer .email-link {
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+  text-decoration: none;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--background-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+  transition: all 150ms ease-in-out;
+}
+footer .contact-box {
+  background: var(--background-color);
+  border-radius: 10px;
+  padding: 30px 120px;
+}
+footer .contact-box h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+footer .contact-box p {
+  font-size: 18px;
+  margin: 0px;
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .general-section {
+    text-align: center;
+    padding: 0px;
+  }
+  nav a {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
 }
